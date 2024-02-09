@@ -1,0 +1,90 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #f0f5f8; /* https://imagecolorpicker.com/ */
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+  margin: 0;
+}
+
+.main {
+  flex: 1;
+  margin: 0 50px 30px 50px;
+}
+
+h1 {
+  font-size: 5rem;
+  margin-top: 0;
+}
+
+footer {
+  text-align: center;
+  color: midnightblue;
+  height: 100px;
+  background-color: #b8c5d6; /* https://coolors.co/ */
+}
+
+.logo {
+  height: 200px;
+  width: 200px;
+  margin-left: -50px;
+}
+
+.creative {
+  color: midnightblue;
+}
+
+.card {
+  width: 45%;
+  text-align: justify;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.tile-image {
+  height: 200px;
+  width: 300px;
+  float: left;
+  margin-right: 50px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.copyright {
+  font-size: 0.8rem;
+}
+
+@media (max-width: 680px) {
+  .logo {
+    height: 100px;
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .left {
+    margin-bottom: 30px;
+  }
+
+  .tile-image {
+    margin-bottom: 10px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
